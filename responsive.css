@@ -1,0 +1,465 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+
+.container{
+    width: 930px;
+}
+
+.product_box , .member , .service_box , .settings , .services_text{
+width: 290px;
+}
+
+
+.about_s_wrapper , .who_we_wrapper img{
+    width: 450px;
+}
+
+
+.who_we_describe{
+overflow: hidden;
+padding-bottom: 12px;
+}
+
+
+
+.about_s_text{
+width: 450px;
+}
+
+
+.per_now{
+    width: 920px;
+}
+
+.purchase{
+   width: 960px; 
+}
+
+
+
+.clients img{
+    width: 162px;
+}
+
+
+.main_part_map iframe{
+    padding-top: 0px;
+}
+
+.h_wr_map{
+    margin-bottom: 50px !important;
+}
+
+.inputs{
+    width: 610px;
+}
+
+.message_describe{
+    width: 260px;
+}
+
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container , .per_now{
+    width: 680px;
+}
+
+
+
+.purchase{
+    width: 720px; 
+ }
+
+
+.about_s_wrapper img , .who_we_wrapper img{
+    width: 330px;
+}
+
+
+.about_s_text{
+    width: 330px;
+}
+
+
+
+.product_box , .member{
+    width: 207px;
+}
+
+
+.service_box , .settings , .services_text{
+    width: 210px;
+}
+
+
+.menu_wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    
+
+.menu{
+padding: 0px 0px;
+}
+
+
+
+.menu_ul{
+    position: fixed;
+    top: 75px;
+    height: auto;
+    width: 114%;
+    text-align: center;
+    background-color: white;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    box-shadow: #979797 0px 7px 10px 0px;
+    transition: 0.5s;
+    left: -2%;
+    opacity: 0;
+    display: none;
+}
+
+
+
+
+#click:checked ~ .menu_ul{
+  top: 75px;
+  display: unset;
+  opacity: 1;
+}
+
+.menu_ul li a{
+    color: #000000;   
+}
+
+.menu_ul li{
+    display: block;
+    padding: 17px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.menu_ul li:last-child{
+    border-bottom: none;
+}
+
+.logo_name{
+    display: block;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.fa-bars{
+    color: #ffffff;
+    margin-right: 40px;
+    display: unset !important;
+    font-size: 20px;
+}
+
+.menu_ul li:first-child a{
+    color: var(--mColor);
+}
+
+.menu_ul li::after{
+    display: none;
+}
+
+
+
+#click:checked + label i::before{
+    content: "\f00d";
+}
+
+
+
+
+.hov_member .icons_fb{ 
+    padding: 6px 12px;
+}
+
+
+.hov_member .icons_tw{ 
+    padding: 6px 9px;
+}
+
+
+.hov_member .icons_linked{ 
+    padding: 6px 10px;
+}
+
+
+.hov_member .icons_bh{ 
+    padding: 6px 7.5px;
+}
+
+
+
+.clients img {
+    width: 125px;
+}
+
+
+
+.main_part_map   iframe{
+    width: 100% !important;
+    display:inline-block;
+    margin-bottom: 30px;
+}
+
+.main_part_map  .about_office{
+    width: 100% !important;
+    display:inline-block;
+}
+
+
+.inputs{
+    width: 450px;
+}
+
+.message_describe{
+    width: 185px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+
+    .inputs{
+        width: 100%;
+        display: block;
+    }
+    
+    .message_describe{
+        width: 100%;
+        display: block;
+    }
+
+    .main_part_message{
+        display: unset;
+    }
+
+
+
+    .msg_btn{
+        margin-bottom: 30px;
+    }
+
+
+
+    .h_client{
+        margin-bottom: 40px;
+    }
+
+    .clients{
+        padding-bottom: 40px;
+    }
+
+
+
+    .c_4, .c_5, .c_6{
+        display: none;
+    }
+
+    .c_1 , .c_2 , .c_3{
+        width: 30% !important;
+    }
+
+
+    
+.icons_fb{ 
+    padding: 13px 20px !important;
+}
+
+
+.icons_tw{ 
+    padding: 13px 17px !important;
+}
+
+
+.icons_linked{ 
+    padding: 13px 18px !important;
+}
+
+
+.icons_bh{ 
+    padding: 13px 16px !important;
+}
+
+
+.service_wrapper{
+    display: unset !important;
+}
+
+
+.service_box , .settings , .services_text{
+    display: block;
+    width: 100%;
+}
+
+
+.service_box{
+    margin-bottom: 30px;
+}
+
+
+    .per_now a{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    .per_now h3, .per_now p{
+        width: 100%;
+    }
+
+    
+    .per_now h3{
+        font-size: 16px;
+    }
+
+
+    .container{
+        width: 85%;
+    }
+
+
+    .per_now{
+        width: 640px;
+        text-align: center;
+        padding: 60px 40px;
+    }
+
+    .purchase{
+        width: 680px; 
+     }
+
+
+
+    .about_s_wrapper img  , .who_we_wrapper img{
+        width: 100%;
+    }
+    
+    
+    .about_s_text , .who_we_describe{
+        width: 100%;
+    }
+
+
+
+.head_wrapper h2{
+    font-size: 27px;
+}
+
+
+    .btn_about , .who_we_wrapper img{
+        margin-bottom: 30px;
+    }
+
+    
+    .product_box  , .member{
+        width: 100%;
+    }
+
+    .product_box_4 , .product_box_5 , .product_box_6{
+        margin-bottom: 25px;
+    }
+    
+
+    .h2_slide{
+        font-size: 36px;
+       letter-spacing: 0.5px;
+    }
+
+    .h3_slide{
+        font-weight: 500;
+    }
+
+
+
+    .page_num_our{
+        padding-top: 25px;
+    }
+
+
+    .hov_member{
+        height: 98.5%;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .per_now{
+        width: 100%;
+    }
+
+    .purchase{
+        width: 100%; 
+        margin-left: 0px;
+        margin-right: 0px;
+     }
+}
+
+
+
+
+/* Minium small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+
+    .hov_member{
+        height: 97.5%;
+    }
+
+.purchase{
+     margin-top: 40px;
+}
+
+
+    
+.purchase_wrapper{
+    padding: 40px 20px;
+}
+
+.footer{
+    padding: 40px 0px;
+}
+
+    .logo_h2_1{
+        font-size: 20px;
+    }
+
+    .logo_h2_2{
+        font-size: 20px;
+    }
+
+    .fa-bars{
+        font-size: unset;
+    }
+
+
+}
